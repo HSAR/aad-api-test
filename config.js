@@ -1,13 +1,13 @@
 // Don't commit this file to your public repos. This config is for first-run
 exports.creds = {
   // Requried
-  identityMetadata: 'https://login.microsoftonline.com/<your_tenant_name>.onmicrosoft.com/v2.0/.well-known/openid-configuration',
+  identityMetadata: 'https://login.microsoftonline.com/blairmc.onmicrosoft.com/v2.0/.well-known/openid-configuration',
   // or 'https://login.microsoftonline.com/<your_tenant_guid>/v2.0/.well-known/openid-configuration'
   // or you can use the common endpoint
   // 'https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration'
   
   // Required
-  clientID: '<client ID>',
+  clientID: 'c2cca3c0-8821-4846-a313-8993e9476805',
 
   // Required.
   // If you are using the common endpoint, you should either set `validateIssuer` to false, or provide a value for `issuer`.
